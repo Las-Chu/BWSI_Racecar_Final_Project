@@ -267,7 +267,7 @@ def update():
             print("State: ", cur_state)
         
     depth_image = rc.camera.get_depth_image()
-    ###### Line Following State ######
+    ###### Line Following State: Done by Laasya Chukka ######
     if cur_state == State.line_following:
         if image is None:
             contour_center = None
